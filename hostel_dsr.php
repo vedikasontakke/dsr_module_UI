@@ -12,7 +12,13 @@
   
     <title>Hostel</title>
   </head>
-  <body class="bg-img text-white">
+  <body>
+
+  <style>
+        body {
+            background-color: #dee9ff;
+            }
+    </style>
   
     <center>
     <h1><font face = "Tamoha" font-size = "5px" </font>Welcome to Hostel DSR</h1>

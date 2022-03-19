@@ -39,12 +39,13 @@
 <table class="table table-striped table-hover" >
                 <thead class="thead-dark">
                  <tr>
+                        <th scope="col">Product ID</th>
                         <th scope="col">Quantity Distributed</th>
                         <th scope="col">Quantity Remaining</th>
+                        <th scope="col">Date Distributed</th>
                         <th scope="col">Head Office Initials</th>
                         <th scope="col">Purchase Authority</th>
                         <th scope="col">Stamp of Initial</th>
-                        <th scope="col">Edit</th>
                     </tr>
                 </thead> 
 </div>

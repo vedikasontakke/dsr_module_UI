@@ -3,6 +3,7 @@
 <html lang="en">
 
   <head>
+  <link rel="stylesheet" href="style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -23,77 +24,39 @@
    
   </head>
   <body>
-  <style>
-        body 
-        {
+    <style>
+        body {
             background-color: #dee9ff;
-        }
-        .btn-space 
-        {
-            margin-right: 5px;      
-        }
-        .table
-        {
-            
-        }
-}
+            }
     </style>
-    
 </br>
 <div><table align = "right">
-        <td><a href="registration/add.php" class="btn btn-primary btn-lg active float-right" role="button" aria-pressed="true">ADD</a></td>
+        <td><a href="registration/distribute_items.php" class="btn btn-primary btn-lg active float-right" role="button" aria-pressed="true">ADD</a></td>
         <td><td>
         <td><td>
-        <td><td>
-        <td><a href="distribute_view.php" class="btn btn-primary btn-lg active float-right" role="button" aria-pressed="true">DISTRIBUTE</a></td>
         <td><td>
         <td><td>
 </table></div>
             <div class="container"> 
-               <center> <h1>Central Store DSR</h1> </center>
+               <center> <h1>Welcome to Distribution Details</h1> </center>
             </div>
         </div>
-      <!--  <div class="container" style="padding-top :10px">
-            <div class="row">
-                <div class="col-md-20">
-                    <div class="row ">
-                        
-                        <div class="col-20 text-right" >
-                            
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-        
-            </div>-->
-            
-           
-             <div class="row">
-                 <div class="col-md-50">
-                 <table class="table table-striped table-hover" >
-                <thead class="thead-dark">  
-                         <tr>
-                             <th>Organization Id</th>
-                             <th>DSR no</th>
-                             <th>Product Id</th>
-                             <th>Purchase Date</th>
-                             <th>Purchase Authority</th>
-                             <th>Supplier Name</th>
-                             <th>Product Name</th>
-                             <th>Product Description</th>
-                             <th>Quantity</th>
-                             <th>Price Per Quantity</th>
-                             <th>Price</th>
-                             <th>Initial HOD</th>
-                             <th>Qty Distributed</th>
-                             <th>Qty Remaining</th>
-                             <th>Remarks</th>
-                             <th>Last Edited</th>
-                         </tr>
-                         
-                     </table>
-                 </div>
-             </div>
+</br></br>
+<div class="container">
+<table class="table table-striped table-hover" >
+                <thead class="thead-dark">
+                 <tr>
+                        <th scope="col">Product ID</th>
+                        <th scope="col">Quantity Distributed</th>
+                        <th scope="col">Quantity Remaining</th>
+                        <th scope="col">Date Distributed</th>
+                        <th scope="col">Head Office Initials</th>
+                        <th scope="col">Purchase Authority</th>
+                        <th scope="col">Stamp of Initial</th>
+                        <th scope="col">Edit</th>
+                    </tr>
+                </thead> 
+</div>
         </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

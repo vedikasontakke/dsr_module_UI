@@ -29,10 +29,22 @@
     <title>Department DSR</title>
   </head>
  
-  <body class="bg-img text-white">
+  <body>
+
+  <style>
+        body {
+            background-color: #dee9ff;
+            }
+    </style>
  
-    <center><font face="Tamoha" size="6px" color="white"><h1>Welcome to Departmental DSR</h1></font></center>
   </br>
+  </br>
+  <center><font face="Tamoha" size="8px" color="black"><h1>Welcome to Departmental DSR</h1></font></center>
+  </br>
+  </br>
+  </br>
+  </br>
+  
 
     <center>
         

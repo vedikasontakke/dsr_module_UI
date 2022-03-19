@@ -18,11 +18,13 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+  
     <body id="page-top">
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    
                     <div class="col-lg-8 align-self-end">
                         <h1 class="text-white font-weight-bold">Welcome to DeadStock Register</h1>
                         <hr class="divider" />
@@ -35,8 +37,7 @@
                               Select DSR
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                              <li><a class="dropdown-item" href="cs_dsr.php">Central Store DSR</a></li>
-                              <li><a class="dropdown-item" href="distribute.php">Distribution</a></li>
+                              <li><a class="dropdown-item" href="view_cs.php">Central Store DSR</a></li>
                               <li><a class="dropdown-item" href="dept_dsr.php">Departmental DSR</a></li>
                               <li><a class="dropdown-item" href="hostel_dsr.php">Hostels DSR</a></li>
                               <li><a class="dropdown-item" href="library_dsr.php">Library DSR</a></li>

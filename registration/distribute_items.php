@@ -31,6 +31,10 @@
             </div>
 
             <div class="form-group">
+                <input type="date" class="form-control item" id="date_distributed" placeholder="Date of Distributed">
+            </div>
+
+            <div class="form-group">
                 <input type="text" class="form-control item" id="head_initials" placeholder="HOD Initials">
             </div>
 
